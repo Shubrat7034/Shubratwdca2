@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="brand">
+        <img src="images/logo.png" alt="$&€">
+        <div>
+          <div style="font-weight:700">SHUBRAT CHAUDHARY</div>
+          <div style="font-size:12px; opacity:0.9;">Student • Developer • Designer</div>
+        </div>
+      </div>
+
+      <ul class="nav-links" role="menubar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" aria-label="Hero">
+      <h1>Hello, I'm SHUBRAT CHAUDHARY</h1>
+      <p>A passionate student exploring web development, UI/UX design and data science. This portfolio showcases my skills, projects and ways to connect.</p>
+    </section>
+
+    <section style="margin-top:12px; background:#fff; padding:14px; border-radius:8px;">
+      <h2>Quick Overview</h2>
+      <p>I build web projects, participate in college hackathons, I enjoy turning ideas into working prototypes, and also love working on automobiles. Check out my Skills & Projects page for more.</p>
+    </section>
+
+    <footer>
+      © <span id="year"></span>  SHUBRAT CHAUDHARY
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
